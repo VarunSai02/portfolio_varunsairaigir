@@ -72,8 +72,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     url: site.url,
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Raritan",
-      addressRegion: "NJ",
+      addressLocality: "New York",
+      addressRegion: "NY",
       addressCountry: "US",
     },
     sameAs: [

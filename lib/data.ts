@@ -6,14 +6,14 @@
 export const site = {
   name: "Varun Sai Raigir",
   title: "AI/ML Engineer",
-  location: "Raritan, NJ",
+  location: "New York, NY",
   availability: "Open to relocation (US) or remote",
   email: "varunraigir@gmail.com",
   phone: "+1-945-273-0734",
   url: "https://varunsairaigir.com",
   tagline:
     "I build AI systems that ship: clinical AI in active physician pilot, edge ML running on real hardware, and production applications people use every day.",
-  about: `I'm an AI/ML engineer focused on systems that reach real users, not just benchmarks. My research in clinical machine learning is published, and day to day I'm building edge AI for health wearables and a clinical documentation platform physicians already rely on. That experience is clinical, but my interest isn't limited to it: I'm equally comfortable across general software and AI engineering, from backend systems and APIs to production ML pipelines, and I'm open to roles beyond healthcare. What draws me in is the harder version of the problem, whether that's ML meeting constrained hardware, a regulated environment where getting it wrong has real consequences, or just a system that needs to actually ship and hold up in production. Originally from Hyderabad, India, now based in New Jersey.`,
+  about: `I'm an AI/ML engineer focused on systems that reach real users, not just benchmarks. My research in clinical machine learning is published, and day to day I'm building edge AI for health wearables and a clinical documentation platform physicians already rely on. That experience is clinical, but my interest isn't limited to it: I'm equally comfortable across general software and AI engineering, from backend systems and APIs to production ML pipelines, and I'm open to roles beyond healthcare. What draws me in is the harder version of the problem, whether that's ML meeting constrained hardware, a regulated environment where getting it wrong has real consequences, or just a system that needs to actually ship and hold up in production. Originally from Hyderabad, India, now based in New York.`,
   resumeUrl: "/Varun_Sai_Raigir_Resume.pdf",
 } as const;
 
