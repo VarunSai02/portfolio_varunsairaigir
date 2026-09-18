@@ -38,7 +38,7 @@ export const experience: Experience[] = [
   {
     role: "AI/ML Engineer",
     org: "INVIZA Health",
-    start: "Jan 2025",
+    start: "Apr 2026",
     end: "Present",
     summary:
       "Building production edge AI algorithms for smart insole wearables: step count detection, gait analysis, and fall detection using sensor fusion and lightweight ML models compiled with TFLite Micro for on-device, real-time inference without cloud dependency. Own the full pipeline from raw IMU sensor data collection through model training in PyTorch and TensorFlow, quantization-aware optimization, and embedded deployment on constrained hardware. Benchmark accuracy and latency trade-offs across quantization levels to hit target performance budgets.",
@@ -47,10 +47,10 @@ export const experience: Experience[] = [
   {
     role: "AI/ML Engineer",
     org: "mednabdh.ai",
-    start: "Mar 2025",
+    start: "Jan 2026",
     end: "Aug 2026",
     summary:
-      "Designed and deployed a clinical AI platform now in active pilot with physicians. Real-time speech-to-text transcription, LangGraph-orchestrated multi-step LLM reasoning, RAG retrieval over a Pinecone vector store, structured SOAP note generation, and automated EMR field population via REST API. Physicians accept output with zero manual edits. Built the eval infrastructure that made clinical deployment possible: offline golden-set evaluation against clinician-reviewed cases, LLM-as-judge scoring against clinical documentation standards, CI-integrated regression tests gating every pipeline version, and responsible AI guardrails catching hallucinations before output reaches physicians. Deployed on Azure and GCP using Vertex AI and Gemini APIs, with Docker, CI/CD, structured logging, observability dashboards, role-based access controls, and audit logging for PHI compliance.",
+      "Designed and deployed a clinical AI platform that reached active pilot with physicians. Real-time speech-to-text transcription, LangGraph-orchestrated multi-step LLM reasoning, RAG retrieval over a Pinecone vector store, structured SOAP note generation, and automated EMR field population via REST API. Physicians accepted output with zero manual edits. Built the eval infrastructure that made clinical deployment possible: offline golden-set evaluation against clinician-reviewed cases, LLM-as-judge scoring against clinical documentation standards, CI-integrated regression tests gating every pipeline version, and responsible AI guardrails catching hallucinations before output reached physicians. Deployed on Azure and GCP using Vertex AI and Gemini APIs, with Docker, CI/CD, structured logging, observability dashboards, role-based access controls, and audit logging for PHI compliance.",
     stack: [
       "Python",
       "FastAPI",
@@ -131,9 +131,9 @@ export const projects: Project[] = [
     name: "mednabdh.ai",
     slug: "mednabdh-ai",
     description:
-      "Clinical AI documentation platform in active pilot with physicians, featuring real-time transcription, LangGraph-orchestrated reasoning, RAG over Pinecone, and automated EMR population. See work experience for the full build.",
+      "Clinical AI documentation platform that reached active pilot with physicians, featuring real-time transcription, LangGraph-orchestrated reasoning, RAG over Pinecone, and automated EMR population. See work experience for the full build.",
     stack: ["LangGraph", "RAG", "Pinecone", "FastAPI", "Vertex AI"],
-    status: "Active",
+    status: "Live",
     url: "https://mednabdh.ai",
     featured: true,
   },
